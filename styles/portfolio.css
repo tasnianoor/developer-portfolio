@@ -73,6 +73,10 @@ nav li {
     font-size: 18px;
     margin-bottom: 30px;
 }
+section{
+    margin-top: 130px;
+
+}
 
 /* main section */
 main {
@@ -91,9 +95,9 @@ main {
 }
 
 .section-title {
-    
+    text-align: center;
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700;
 }
 
@@ -102,17 +106,47 @@ main {
     font-size: 18px;
     margin-bottom: 30px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about .info-title{
+
+.about .info-title {
     font-size: 20px;
     color: #757575;
 }
-.info-description{
+
+.info-description {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
 
 }
+
+/* what i do styles */
+
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: #757575;
+}
+/* Resume Styles */
